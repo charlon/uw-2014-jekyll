@@ -28,9 +28,9 @@ And then execute:
     $ bundle
 
 
-## Usage
+## Jekyll Commands
 
-TODO: Write usage instructions here. Describe your available layouts, includes, and/or sass.
+    $ jekyll serve
 
 ## Contributing
 

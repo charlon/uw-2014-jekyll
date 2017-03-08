@@ -4,7 +4,12 @@ Welcome to your new Jekyll theme! In this directory, you'll find the files you n
 
 TODO: Delete this and the text above, and describe your gem
 
-## Installation
+## Create new Jekyll project
+
+    $ jekyll new [projectname]
+    $ cd [projectname]
+
+## Installation this theme
 
 Add this line to your Jekyll site's `Gemfile`:
 
@@ -22,9 +27,6 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install uw-jekyll-2017
 
 ## Usage
 

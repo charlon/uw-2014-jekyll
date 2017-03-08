@@ -9,7 +9,7 @@ TODO: Delete this and the text above, and describe your gem
 Add this line to your Jekyll site's `Gemfile`:
 
 ```ruby
-gem "uw-jekyll-2017"
+gem 'uw-jekyll-2017', github: 'charlon/uw-jekyll-2017'
 ```
 
 And add this line to your Jekyll site's `_config.yml`:
@@ -45,4 +45,3 @@ When your theme is released, only the files in `_layouts`, `_includes`, and `_sa
 ## License
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-

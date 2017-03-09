@@ -20,7 +20,7 @@ gem 'uw-20174-jekyll', github: 'charlon/uw-2014-jekyll'
 And add this line to your Jekyll site's `_config.yml`:
 
 ```yaml
-theme: uw-jekyll-2017
+theme: uw-2014-jekyll
 ```
 
 And then execute:

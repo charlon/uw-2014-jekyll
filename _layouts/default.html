@@ -11,10 +11,10 @@
         <link rel="stylesheet" id="uw-master-css" href="//www.washington.edu/wp-content/themes/uw-2014/style.css?ver=3.6" type="text/css" media="all">
         <!--<link rel="stylesheet" href="{{ "/assets/css/full.css" | relative_url }}">-->
 
-		<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js?ver=1.9.1'></script>
-		<script type='text/javascript' src='http://www.washington.edu/wp-includes/js/underscore.min.js?ver=1.6.0'></script>
-		<script type='text/javascript' src='http://www.washington.edu/wp-includes/js/backbone.min.js?ver=1.1.2'></script>
-		<script type='text/javascript' src='http://www.washington.edu/wp-content/themes/uw-2014/js/site.dev.js'></script>
+		<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js?ver=1.9.1'></script>
+		<script type='text/javascript' src='//www.washington.edu/wp-includes/js/underscore.min.js?ver=1.6.0'></script>
+		<script type='text/javascript' src='//www.washington.edu/wp-includes/js/backbone.min.js?ver=1.1.2'></script>
+		<script type="text/javascript" src="//www.washington.edu/wp-content/themes/uw-2014/js/site.js?ver=1.0.3"></script>
 
     </head>
     <body>
@@ -76,11 +76,11 @@
                 </div>
             </header>
 
-            {% include uw-main-navigation.html %}
+            {% include uw-navigation.html %}
 
             {{ content }}
 
-            <footer class="uw-footer">footer goes here</footer>
+            {% include uw-footer.html %}
 
         </div>
     </div>

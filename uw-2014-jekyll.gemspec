@@ -1,13 +1,13 @@
 # coding: utf-8
 
 Gem::Specification.new do |spec|
-  spec.name          = "uw-jekyll-2017"
+  spec.name          = "uw-2014-jekyll"
   spec.version       = "0.1.0"
   spec.authors       = [""]
   spec.email         = ["charlon@gmail.com"]
 
   spec.summary       = "sdafasdfjasdf"
-  spec.homepage      = "https://github.com/charlon/uw-jekyll-2017"
+  spec.homepage      = "https://github.com/charlon/uw-2014-jekyll"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(assets|_layouts|_includes|_sass|LICENSE|README)}i) }

@@ -3,7 +3,7 @@
 
 .fui-radio-unchecked:before,
 .fui-radio-checked:before {
-  background: url(../assets/svg/uw-sprite.svg) no-repeat 0 0 rgba(0, 0, 0, 0);
+  background: url('/assets/svg/uw-sprite.svg') no-repeat 0 0 rgba(0, 0, 0, 0);
   content: "";
   width: 22px;
   height: 22px;

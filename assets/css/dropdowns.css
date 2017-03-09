@@ -71,7 +71,7 @@
 }
 .dawgdrops-item a.dropdown-toggle:hover:before,
 .dawgdrops-item a.dropdown-toggle:focus:before {
-  background: url('../assets/svg/uw-sprite.svg') no-repeat -203px -490px;
+  background: url('/assets/svg/uw-sprite.svg') no-repeat -203px -490px;
   -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
@@ -87,7 +87,7 @@
   width: 10px;
   right: 8px;
   top: 17px;
-  background: url('../assets/svg/uw-sprite.svg') no-repeat -353px 0px;
+  background: url('/assets/svg/uw-sprite.svg') no-repeat -353px 0px;
 }
 .dawgdrops-item a:after {
   content: "";
@@ -96,7 +96,7 @@
   height: 24px;
   width: 12px;
   top: 14px;
-  background: url('../assets/svg/slash.svg') no-repeat;
+  background: url('/assets/svg/slash.svg') no-repeat;
 }
 .dawgdrops-item:hover .dawgdrops-menu {
   display: block;
@@ -175,4 +175,3 @@
     font-size: 18px;
   }
 }
-

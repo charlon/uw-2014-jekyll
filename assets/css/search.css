@@ -106,7 +106,7 @@ label.screen-reader {
   height: 54px;
   text-indent: -99999px;
   outline: 2px solid #808080;
-  background: url(../assets/svg/search.svg) no-repeat center center #808080;
+  background: url('/assets/svg/search.svg') no-repeat center center #808080;
   position: relative;
   -webkit-background-size: 22px;
   -moz-background-size: 22px;
@@ -146,16 +146,16 @@ label.screen-reader {
   color: #4b2e83;
 }
 .uw-search-bar-container .uw-results .result .mail {
-  background: url('assets/images/search-mail.png') no-repeat 0 8px;
+  background: url('/assets/images/search-mail.png') no-repeat 0 8px;
 }
 .uw-search-bar-container .uw-results .result .fax {
-  background: url('assets/images/search-fax.png') no-repeat 0 8px;
+  background: url('/assets/images/search-fax.png') no-repeat 0 8px;
 }
 .uw-search-bar-container .uw-results .result .telephonenumber {
-  background: url('assets/images/search-phone.png') no-repeat 0 6px;
+  background: url('/assets/images/search-phone.png') no-repeat 0 6px;
 }
 .uw-search-bar-container .uw-results .result .vcard {
-  background: url('assets/images/search-vcard.png') no-repeat 0 6px;
+  background: url('/assets/images/search-vcard.png') no-repeat 0 6px;
 }
 .uw-search-bar-container .uw-results .result.open h4 {
   color: #4b2e83;
@@ -180,7 +180,7 @@ label.screen-reader {
 }
 .uw-search-bar-container .uw-results a.directory-more {
   text-indent: -99999px;
-  background: url('../assets/svg/uw-sprite.svg') no-repeat -283px 1px;
+  background: url('/assets/svg/uw-sprite.svg') no-repeat -283px 1px;
   height: 25px;
   right: 25px;
   top: 14px;
